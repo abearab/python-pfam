@@ -4,12 +4,16 @@ This package provides a programming interface to retrive information from [Pfam 
 The [Pfam database](https://pfam.xfam.org/) is a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs).
 
 ## Installation
-This package is not in the `pip` repository yet. To install it you can use the following commands:
-```sh
-$ git clone https://github.com/AlbertoBoldrini/python-pfam
-$ pip install ./python-pfam
-```
+This package is not in the `pip` repository yet. To install it you can use one of the following commands:
 
+```bash
+pip install git+https://github.com/AlbertoBoldrini/python-pfam
+```
+___
+```bash
+git clone https://github.com/AlbertoBoldrini/python-pfam
+pip install ./python-pfam
+```
 
 ## Example
 In these example we use the package `beeprint` to print to the termial data structured in a readable format. 
